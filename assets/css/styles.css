@@ -1,0 +1,127 @@
+@import url('reset.css');
+
+header .logo-menu img {
+    margin-left: 25px;
+}
+
+header {
+    justify-content: space-between; /*Insere espaço da seguinte maneira -> |o   o   o| */
+    background: white;
+    display: flex; /*Coloca um item ao lado do outro*/
+    align-items: center;
+    padding: 6px 20px;
+}
+
+header .notificacao {
+    display: flex; /*Coloca um item ao lado do outro*/
+    justify-content: space-evenly;
+    gap: 20px; /*Espaço entre os elementos */
+    align-items: center;
+}
+
+header .notificacao img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+main {
+    width: 100%;
+    background: white;
+    padding: 20px 10px;
+    display: flex;
+}
+main .video .video-player-title {
+    padding: 15px 0;
+}
+main .video .video-player-title h1 {
+    font-size: 30px;
+}
+main .video .informacoes .canal .avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+main .video .informacoes .canal {
+    flex-direction: row;
+    display: flex;
+}
+main .video .informacoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap:40px;
+}
+
+main .video .informacoes .canal .detalhes{
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 10px;
+}
+main .video .informacoes .canal .detalhes h3{
+    margin-left: 10px;
+}
+main .video .informacoes .curtir {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+main .video .informacoes .descurtir {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+main .video .informacoes .compartilhar {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+main .video .informacoes .download {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+main .video .informacoes p{
+    margin-left:10px;
+}
+
+main .video .visualizacoes {
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+main .video .visualizacoes p {
+    color: black;
+    font-weight: bold;
+}
+
+main .playlist .thumbnail {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+main .playlist .thumbnail .info-thumbnail {
+    width: 200px;
+    max-height: 90px;
+    margin-left: 16px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .playlist .thumbnail .info-thumbnail .thumbnail-channel,
+main .playlist .thumbnail .info-thumbnail .thumbnail-views {
+   padding-top: 7px;
+}
+
+main .playlist .thumbnail .info-thumbnail .thumbnail-channel p,
+main .playlist .thumbnail .info-thumbnail .thumbnail-views p {
+   font-size: 12px;
+}
+
+main .playlist {
+    margin-left: 25px;
+ }
